@@ -1,0 +1,134 @@
+body { background-color: #dddddd;
+       counter-reset: figi; }
+
+h1 { font-family: sans-serif; }
+h2 { font-family: sans-serif; }
+h3 { font-family: sans-serif; }
+h4 { font-family: sans-serif; }
+h5 { font-family: sans-serif; }
+h6 { font-family: sans-serif; }
+
+/* p         { text-align: justify; } */
+
+p.adds    { border: thin solid #999999;
+            padding: 6px;
+            margin-left: 3em; }
+
+div.adds  { border: thin solid #999999;
+            padding: 6px;
+            margin-top: 1em;    /* default for p */
+            margin-bottom: 1em; /* default for p */
+            margin-left: 3em; }
+div.adds p { margin-bottom: 0; }
+div.adds p:first-child { margin-top: 0; }
+
+div.nar    { margin-left: 202px;
+             padding-left: 12px;
+             border-left: thin solid #999999; }
+
+/*
+div.nar    { margin-left: 176px;
+             padding-left: 19px;
+             padding-right: 19px;
+             border-left: 3px solid #999999;
+             border-right: 3px solid #999999; }
+*/
+
+div.fwbody { width: 756px;
+             text-align: left;
+             border-right: 1px solid black; }
+
+div.fwbody_content { margin-right: 12px; }
+
+div.footer  { /* font-size: smaller; */
+              font-family: sans-serif;
+              text-align: right;
+              padding-top: 1ex;
+              margin-top: 18pt;
+              border-top: 1px solid black; }
+
+div.footer2 { /* font-size: smaller; */
+              font-family: sans-serif;
+              text-align: right;
+              margin-right: 5px;
+              margin-top: 1.5ex; }
+
+span.footerfineprint { font-size: smaller; }
+
+.nav  { font-size: smaller;
+        font-family: sans-serif;
+        text-align: right; }
+
+.nav2 { font-size: smaller;
+        font-family: sans-serif;
+        text-align: right;
+        background-color: #ccc;
+        padding: 1ex;
+        border-top: 1px solid black;
+        border-left: 1px solid black;
+        border-bottom: 1px solid black; }
+
+.splashphoto { float: left;
+			   margin-top: 5pt;
+               margin-left: 10pt;
+			   margin-right: 10pt;
+               margin-bottom: 12pt; }
+
+table.basictable          { border-collapse: collapse; }
+table.basictable tr       { vertical-align: top; }
+/* table.basictable tr td    { border: solid 1px; } */
+table.basictable tr td    { padding-right: 1em; }
+table.basictable tr th    { font-family: sans-serif;
+                            text-align: left; }
+table.basictable tr th.h1 { border-top: solid 1px #ffffcc;
+                            font-size: large; }
+table.basictable tr th.hv { text-align: left; }
+table.basictable tr th.hh { padding-bottom: 0.8em; }
+
+table.twocolumn tr           { vertical-align: top; }
+table.twocolumn tr td        { width: 50%; }
+table.twocolumn tr td.gutter { width: 0%;
+                               padding-right: 0.5em; padding-left: 0.5em; }
+
+table.thumb               { /* border-left: solid 1px #ffffcc;
+                            padding-left: 0pt; */
+                            /* The following 3 lines are copies from Firefox's
+                               res/html.css and make thumb tables behave like
+                               paragraphs in terms of spacing. */
+                            display: block;
+                            margin-top: 1em;
+                            margin-bottom: 1em;
+                            margin-left: -2px; }
+table.thumb tr            { vertical-align: top; }
+table.thumb tr td.image   { margin-left: 0px;
+                            padding-left: 1px;
+                            margin-right: 0px;
+                            padding-left: 0px; }
+table.thumb tr td.caption { margin-left: 0px;
+                            padding-left: 16px;
+                            font-style: italic;
+                            width: 100%; }
+table.thumb tr td.caption_wide { font-style: italic;
+                                 padding-right: 16px; }
+table.thumb tr td a img   { border: none; }
+table.thumb tr td p:first-child:before { content: counter(figi) ". ";
+                                         counter-increment: figi;
+                                         font-style: normal; }
+table.thumb tr td p.info  { font-size: smaller;
+                            font-family: sans-serif;
+                            font-style: normal;
+                            text-align: right;
+                            margin-top: -4px; }
+/* table.thumb tr td p.info span.credit { font-size: smaller; } */
+
+ul.contents li { margin-top: 6pt; }
+
+ul.checklist           { list-style: none; }
+ul.checklist li:before { content: "\25ab\2002";  /* checkbox + en space */
+                         }
+
+
+/*
+pre { border: 1px solid #999999;
+      padding-left: 2em; }
+*/
