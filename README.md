@@ -1,3 +1,3 @@
-This is the repository for my personal website: http://www.public.asu.edu/~ykhong1
+This is the repository for my personal website.
 
 Thank you for visiting my page.
