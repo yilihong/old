@@ -1,0 +1,38 @@
+* Outliner
+Text text text!
+** more items
+** yet more
+
+* Markup
+*Bold*, /italic/, =verbatim=, +strikethrough+
+- bulleted
+
+* Tables
+
+| Some | Data           |
+|------+----------------|
+|   34 | Shut the door  |
+|   12 | Buckle my shoe |
+
+* Export to other formats
+C-c, C-e
+
+#+TITLE: A Gentle Introduction to Org-Model
+#+OPTIONS: toc:nil
+
+* Source code
+shortcut: <s + TAB
+#+BEGIN_SRC python
+  import csv
+  x=list()
+#+END_SRC
+
+* LaTeX integration
+- Characters: \alpha \rightarrow \beta
+
+\begin{align*}
+
+\end{align*}
+
+* Literate programming
+*
