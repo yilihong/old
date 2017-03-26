@@ -17,14 +17,14 @@ li {
 /*===  2. General      ===*/
 /*========================*/
 
-body { background:#fff; font-size: 17.5px; line-height: 20px; font-family: 'PT Sans Narrow', Helvetica, Arial, sans-serif; color:#888; }
+body { background:#fff; font-size: 14.5px; line-height: 18px; font-family: 'PT Serif', Helvetica, Arial, sans-serif; color:#000000; }
 
 #wrapper { width:980px; background:#fff; margin:0 auto; }
 .inner { width:900px; margin:0 auto; }
 #header, #main, #footer { margin:0 auto; width:100%; }
 
 a { color:#d16f4e; text-decoration:none; transition: color 0.1s linear; -moz-transition: color 0.1s linear; -webkit-transition: color 0.1s linear; -o-transition: color 0.1s linear; }
-	a:hover { color:#444; }
+	a:hover { color:#888; }
 	a:active{ outline: none; }
 	a:focus{ outline: none; -moz-outline-style: none; }
 
@@ -75,7 +75,7 @@ input, textarea { font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; }
 /*==========================*/
 
 .nav,h1,h2,h3,h4,.home_tagline h1,.tagline h1,.over span,.dropcap1,.dropcap2,.bold,.nivo-caption {
-	font-family: 'PT Sans Narrow', Helvetica, Arial;
+	font-family: 'PT Serif', Helvetica, Arial;
 	/*text-transform:uppercase; */
 	font-weight:normal;
 }
@@ -140,9 +140,9 @@ blockquote { color:#aaa; font-size:15px; font-style:italic;  margin:20px 0px 20p
 /*========================*/
 
 .nav { float:right; height:20px; margin:40px 0; }
-.nav ul { list-style:none; position:relative; }
-	.nav ul li { float:left; margin-left:15px; position:relative; display:block; font-size:19px; font-weight: bold;}
-	.nav ul li > a { color:#666; padding:0px 8px; line-height:40px; text-decoration:none; display:block;  }
+.nav ul { list-style:none; position:relative; color:#000000;}
+	.nav ul li { float:left; margin-left:15px; position:relative; display:block; font-size:19px; font-weight: bold; color:#000000;}
+	.nav ul li > a { color:#000000; padding:0px 8px; line-height:40px; text-decoration:none; display:block;  }
 	.nav ul li:hover > a { color:#d16f4e; }
 	.nav ul li.current > a { color:#d16f4e; }
 	.nav ul li.current > a:hover { color:#d16f4e; }
@@ -211,7 +211,7 @@ blockquote { color:#aaa; font-size:15px; font-style:italic;  margin:20px 0px 20p
 	.item-name h4, .item-name h3 { margin-bottom:6px; }
 	.item-name > a { font-size:11px; }
 
-.one-column > li { width:900px; margin-bottom:24px; display:inline-block; float:none; }
+.one-column > li { width:900px; margin-bottom:24px; display:inline-block; float:none; color:#000000;}
 	.one-column li:last child { margin:0; }
 	.one-column .item-name span { margin-bottom:0px; }
 	.one-column .item-name span a { font-size:12px; line-height:20px; display:block; margin-bottom:10px; }
@@ -313,8 +313,9 @@ blockquote { color:#aaa; font-size:15px; font-style:italic;  margin:20px 0px 20p
 /*========================*/
 
 ol, .list { list-style:inside none; margin-bottom:30px; }
-ol li, .list li { color:#888; line-height:20px; }
+ol li, .list li { color:#000000; line-height:20px; }
 	ol { list-style-type:decimal; }
+	.disc { list-style-type:disc; }
 	.square { list-style-type:square; }
 	.circle { list-style-type:circle; }
 	.check li { background:transparent url(../img/checklist.png) no-repeat 0px 2px; padding-left:22px; }
