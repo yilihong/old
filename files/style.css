@@ -17,7 +17,7 @@ li {
 /*===  2. General      ===*/
 /*========================*/
 
-body { background:#fff; font-size: 14.5px; line-height: 18px; font-family: 'PT Serif', Helvetica, Arial, sans-serif; color:#000000; }
+body { background:#fff; font-size: 14.5px; line-height: 20px; font-family: 'PT Serif', Helvetica, Arial, sans-serif; color:#000000; }
 
 #wrapper { width:980px; background:#fff; margin:0 auto; }
 .inner { width:900px; margin:0 auto; }
@@ -28,9 +28,16 @@ a { color:#8C1D40; text-decoration:none; transition: color 0.1s linear; -moz-tra
 	a:active{ outline: none; }
 	a:focus{ outline: none; -moz-outline-style: none; }
 
+
 p { display: block; margin-bottom:20px; }
 strong { font-weight:bold; }
-input, textarea { font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; }
+input, textarea { font-family: 'PT Serif', Arial, 'Helvetica Neue', Helvetica, sans-serif; }
+
+.three_fourth p > a { color:#8C1D40; border-bottom: 1px #8C1D40 dotted;  }
+/*.three_fourth p:hover > a { color:#8C1D40; }*/
+/*.three_fourth p.current > a { color:#8C1D40; }*/
+/*.three_fourth p.current > a:hover { color:#FFC627; }*/
+.three_fourth p > a:hover { color:#FFC627; border-bottom: 1px #FFC627 solid;}
 
 ::selection { background:#73808c; color:#fff; }
 
