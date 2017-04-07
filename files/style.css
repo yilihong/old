@@ -40,6 +40,8 @@ input, textarea { font-family: 'PT Serif', Arial, 'Helvetica Neue', Helvetica, s
 .three_fourth p > a:hover { color:#FFC627; border-bottom: 1px #FFC627 solid;}
 
 .date { color:#00A3E0; font-family: 'PT Serif';}
+.news > a { color:#8C1D40; border-bottom: 1px #8C1D40 dotted;  }
+.news > a:hover { color:#FFC627; border-bottom: 1px #FFC627 solid;}
 
 ::selection { background:#73808c; color:#fff; }
 
