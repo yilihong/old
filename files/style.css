@@ -1,6 +1,21 @@
 /*========================*/
 /*===  1. CSS Reset    ===*/
 /*========================*/
+html {
+   transform: scale(1.5);
+   transform-origin: center 0;
+   // add prefixed versions too.
+}
+
+/*p {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 10px;
+    margin-left: 10px;
+}*/
+
+
+
 
 html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, img, strong, ol, li, form, input { margin: 0; padding: 0; border: 0; vertical-align: baseline; }
 ul { list-style:none; list-style-position:inside; margin: 0; padding: 0; border: 0; vertical-align: baseline;}
@@ -17,9 +32,9 @@ li {
 /*===  2. General      ===*/
 /*========================*/
 
-body { background:#fff; font-size: 13px; line-height: 20px; font-family:'Playfair Display', 'Farsan','PT Serif', Helvetica, Arial, sans-serif; color:#000000; }
+body { background:#fff; font-size: 16px; line-height: 20px; font-weight:400 ;font-family: 'Farsan','Playfair Display','Raleway' ,'PT Serif', Helvetica, Arial, sans-serif; color:#000000; }
 
-#wrapper { width:980px; background:#fff; margin:0 auto; }
+#wrapper { width:1000px; background:#fff; margin:0 auto; }
 .inner { width:900px; margin:0 auto; }
 #header, #main, #footer { margin:0 auto; width:100%; }
 
@@ -28,10 +43,11 @@ a { color:#8C1D40; text-decoration:none; transition: color 0.1s linear; -moz-tra
 	a:active{ outline: none; }
 	a:focus{ outline: none; -moz-outline-style: none; }
 
+li > b { font-weight:600; }
 
 p { display: block; margin-bottom:20px; }
-strong { font-weight:bold; }
-input, textarea { font-family: 'Playfair Display','Farsan', 'PT Serif', Arial, 'Helvetica Neue', Helvetica, sans-serif; }
+p > b { font-weight:600; }
+input, textarea { font-family:'Farsan','Playfair Display','Raleway',  'PT Serif', Arial, 'Helvetica Neue', Helvetica, sans-serif; }
 
 .three_fourth p > a { color:#8C1D40; border-bottom: 1px #8C1D40 dotted;  }
 /*.three_fourth p:hover > a { color:#8C1D40; }*/
@@ -39,7 +55,9 @@ input, textarea { font-family: 'Playfair Display','Farsan', 'PT Serif', Arial, '
 /*.three_fourth p.current > a:hover { color:#FFC627; }*/
 .three_fourth p > a:hover { color:#FFC627; border-bottom: 1px #FFC627 solid;}
 
-.date { color:#00A3E0; font-family: 'Playfair Display','Farsan','PT Serif';}
+/*.date { color:#00A3E0; font-family: 'Raleway', 'Playfair Display','Farsan','PT Serif';}*/
+.date { color:#000000; font-family: 'Farsan','Raleway', 'Playfair Display','PT Serif';}
+
 .news > a { color:#8C1D40; border-bottom: 1px #8C1D40 dotted;  }
 .news > a:hover { color:#FFC627; border-bottom: 1px #FFC627 solid;}
 
@@ -86,7 +104,7 @@ input, textarea { font-family: 'Playfair Display','Farsan', 'PT Serif', Arial, '
 /*==========================*/
 
 .nav,h1,h2,h3,h4,.home_tagline h1,.tagline h1,.over span,.dropcap1,.dropcap2,.bold,.nivo-caption {
-	font-family: 'PT Sans Narrow','Playfair Display','Farsan','PT Serif', Helvetica, Arial;
+	font-family: 'Farsan','Raleway','PT Sans Narrow','Playfair Display','PT Serif', Helvetica, Arial;
 	/*text-transform:uppercase; */
 	font-weight:normal;
 }
@@ -144,7 +162,7 @@ blockquote { color:#aaa; font-size:15px; font-style:italic;  margin:20px 0px 20p
 #header { z-index: 999; position: relative; }
 	#header .inner { border-bottom:1px dotted #ddd; }
 	#header .logo { float:left; margin-top:28px; position:relative; display:block;}
-	#header .log { float:left; margin-top:50px; margin-left:25px; position:relative; display:block; font-size:25px; font-family:'PT Sans Narrow'; font-weight: normal;}
+	#header .log { float:left; margin-top:50px; margin-left:25px; position:relative; display:block; font-size:25px; font-family:'Farsan'; font-weight: 300;}
 
 /*========================*/
 /*===  5.1. Navigation ===*/
@@ -152,7 +170,7 @@ blockquote { color:#aaa; font-size:15px; font-style:italic;  margin:20px 0px 20p
 
 .nav { float:right; height:20px; margin:40px 0; }
 .nav ul { list-style:none; position:relative; color:#000000;}
-	.nav ul li { float:left; margin-top:5px; margin-left:15px; position:relative; display:block; font-size:20px; font-weight: bold; font-family:'PT Sans Narrow'; color:#000000;}
+	.nav ul li { float:left; margin-top:5px; margin-left:15px; position:relative; display:block; font-size:20px; font-weight: 500; font-family:'Farsan'; color:#000000;}
 	.nav ul li > a { color:#000000; padding:0px 8px; line-height:40px; text-decoration:none; display:block;  }
 	.nav ul li:hover > a { color:#8C1D40; }
 	.nav ul li.current > a { color:#8C1D40; }
