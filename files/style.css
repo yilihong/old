@@ -170,7 +170,7 @@ blockquote { color:#aaa; font-size:15px; font-style:italic;  margin:20px 0px 20p
 
 .nav { float:right; height:20px; margin:40px 0; }
 .nav ul { list-style:none; position:relative; color:#000000;}
-	.nav ul li { float:left; margin-top:5px; margin-left:15px; position:relative; display:block; font-size:20px; font-weight: 500; font-family:'Farsan'; color:#000000;}
+	.nav ul li { float:left; margin-top:5px; margin-left:15px; position:relative; display:block; font-size:20px; font-weight: normal; font-family:'Farsan'; color:#000000;}
 	.nav ul li > a { color:#000000; padding:0px 8px; line-height:40px; text-decoration:none; display:block;  }
 	.nav ul li:hover > a { color:#8C1D40; }
 	.nav ul li.current > a { color:#8C1D40; }
