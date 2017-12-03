@@ -32,7 +32,7 @@ li {
 /*===  2. General      ===*/
 /*========================*/
 
-body { background:#fff; font-size: 19px; line-height: 22px; font-weight:400 ;font-family:'Slabo 27px','Merriweather','Roboto', 'Farsan','Playfair Display','Raleway' ,'PT Serif', Helvetica, Arial, sans-serif; color:#000000; }
+body { background:#fff; font-size: 17px; line-height: 22px; font-weight:400 ;font-family:'Lora','Slabo 27px','Merriweather','Roboto', 'Farsan','Playfair Display','Raleway' ,'PT Serif', Helvetica, Arial, sans-serif; color:#000000; }
 
 #wrapper { width:1000px; background:#fff; margin:0 auto; }
 .inner { width:900px; margin:0 auto; }
