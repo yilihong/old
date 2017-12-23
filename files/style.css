@@ -32,7 +32,9 @@ li {
 /*===  2. General      ===*/
 /*========================*/
 
-body { background:#fff; font-size: 17px; line-height: 22px; font-weight:400 ;font-family:'Lora','Slabo 27px','Merriweather','Roboto', 'Farsan','Playfair Display','Raleway' ,'PT Serif', Helvetica, Arial, sans-serif; color:#000000; }
+/*body { background:#fff; font-size: 17px; line-height: 22px; font-weight:400 ;font-family:'Lora','Slabo 27px','Merriweather','Roboto', 'Farsan','Playfair Display','Raleway' ,'PT Serif', Helvetica, Arial, sans-serif; color:#000000; }*/
+
+body { background:#fff; font-size: 18px; line-height: 22px; font-weight:400 ; color:#000000; }
 
 #wrapper { width:1000px; background:#fff; margin:0 auto; }
 .inner { width:900px; margin:0 auto; }
@@ -56,7 +58,9 @@ input, textarea { font-family:'Farsan','Playfair Display','Raleway',  'PT Serif'
 .three_fourth p > a:hover { color:#FFC627; border-bottom: 1px #FFC627 solid;}
 
 /*.date { color:#00A3E0; font-family: 'Raleway', 'Playfair Display','Farsan','PT Serif';}*/
-.date { color:#000000; font-family:'Slabo 27px', 'Roboto','Farsan','Raleway', 'Playfair Display','PT Serif';}
+/*.date { color:#000000; font-family:'Slabo 27px', 'Roboto','Farsan','Raleway', 'Playfair Display','PT Serif';}*/
+
+.date { color:#000000;}
 
 .news > a { color:#8C1D40; border-bottom: 1px #8C1D40 dotted;  }
 .news > a:hover { color:#FFC627; border-bottom: 1px #FFC627 solid;}
