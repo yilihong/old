@@ -52,10 +52,14 @@ p > b { font-weight:600; }
 input, textarea { font-family:'Farsan','Playfair Display','Raleway',  'PT Serif', Arial, 'Helvetica Neue', Helvetica, sans-serif; }
 
 .three_fourth p > a { color:#8C1D40; border-bottom: 1px #8C1D40 dotted;  }
+.one_fourth p > a { color:#5C6670; border-bottom: 1px #5C6670 dotted;  }
+
 /*.three_fourth p:hover > a { color:#8C1D40; }*/
 /*.three_fourth p.current > a { color:#8C1D40; }*/
 /*.three_fourth p.current > a:hover { color:#FFC627; }*/
 .three_fourth p > a:hover { color:#FFC627; border-bottom: 1px #FFC627 solid;}
+.one_fourth p > a:hover { color:#00A3E0; border-bottom: 1px #00A3E0 solid;}
+
 
 /*.date { color:#00A3E0; font-family: 'Raleway', 'Playfair Display','Farsan','PT Serif';}*/
 /*.date { color:#000000; font-family:'Slabo 27px', 'Roboto','Farsan','Raleway', 'Playfair Display','PT Serif';}*/
